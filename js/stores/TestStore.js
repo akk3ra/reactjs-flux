@@ -3,7 +3,6 @@ var AppDispatcher = require('../dispatcher/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var TestProduct = require('../utils/TestProduct');
 
-var TestStore = function(){};
 var CHANGE_EVENT = 'change';
 var myCount = 0;
 var TestStore = assign({}, EventEmitter.prototype, {
